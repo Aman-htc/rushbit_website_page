@@ -111,6 +111,7 @@ header .container {
     margin-inline: auto;
     padding-top: 2rem;
     padding-bottom: 5rem;
+
     padding-inline: 1rem;
 
 
@@ -120,6 +121,9 @@ header .container {
 
     max-width: 1440px;
     height: auto;
+    /* position: fixed; */
+    /* position: static; */
+    /* z-index: 0; */
     /* border: 1px solid red; */
 }
 
@@ -193,7 +197,7 @@ header .container {
     height: 3px;
     background-color: var(--logo-color-s);
     position: absolute;
-    left: 29rem;
+    left: 23.50rem;
     top: 4rem;
 
 }
@@ -207,7 +211,7 @@ header .container {
     display: grid;
     place-items: center;
     position: absolute;
-    right: 21.50rem;
+    right: 19rem;
     top: 2rem;
 
 }
@@ -236,10 +240,33 @@ header .container {
 
 }
 
+.sider-bar{
+    width: 300px;
+    background-color: wheat;
+    text-align: center;
+    margin-left: 15rem;
+    z-index: 1;
+    padding-block: 2rem;
+    border-radius: 1rem;
+    display: none;
+    
+
+
+    
+}
+
+.sider-bar a{
+    text-decoration: none;
+    color: var(--primary-light-100);
+    line-height: 2rem;
+
+}
+
 .right-side {
     width: 50%;
     /* border: 1px solid red; */
     position: relative;
+    
 }
 
 .right-side .location {
@@ -469,7 +496,7 @@ header .container {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: #f3e2a6;
+    background-color:rgba(245, 211, 90, 0.808);
     display: grid;
     place-items: center;
 
