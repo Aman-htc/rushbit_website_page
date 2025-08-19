@@ -6,11 +6,7 @@
 
 body {
     background-color: var(--white-color);
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* display: grid; */
-    /* place-items: center; */
+    
 }
 
 
@@ -121,10 +117,7 @@ header .container {
 
     max-width: 1440px;
     height: auto;
-    /* position: fixed; */
-    /* position: static; */
-    /* z-index: 0; */
-    /* border: 1px solid red; */
+    
 }
 
 
@@ -136,11 +129,7 @@ header .container {
 
 }
 
-.logo li h2 span {
-    /* color: var(--logo-color-s); */
-    /* color: #F1C93B; */
 
-}
 
 .nav-link .menu-page-link {
     width: 443px;
@@ -154,6 +143,7 @@ header .container {
 .nav-link .menu-page-link li a {
     color: var(--primary-color);
     font-size: var(--font-16);
+    font-weight: 700;
 
 }
 
@@ -197,7 +187,7 @@ header .container {
     height: 3px;
     background-color: var(--logo-color-s);
     position: absolute;
-    left: 23.50rem;
+    left: 24.50rem;
     top: 4rem;
 
 }
@@ -230,7 +220,7 @@ header .container {
 
     background-color: var(--black-light);
     border-radius: .30rem;
-    /* display: none; */
+    
 
 }
 
@@ -264,7 +254,7 @@ header .container {
 
 .right-side {
     width: 50%;
-    /* border: 1px solid red; */
+
     position: relative;
     
 }
@@ -300,7 +290,7 @@ header .container {
     border-radius: 2rem;
     background-color: var(--white-color);
     padding-inline: .50rem;
-    /* padding-bottom: 2rem; */
+    
 
 }
 
@@ -327,7 +317,7 @@ header .container {
 }
 
 .location .input-search {
-    /* line-height: 1rem; */
+
     padding-top: 1.50rem;
 }
 
@@ -393,7 +383,6 @@ header .container {
 
     }
 
-    .line-3 {}
 
     .left-side .save-to {
         right: 20rem;
@@ -453,7 +442,7 @@ header .container {
 }
 
 .line-2 {
-    right: 20rem;
+    right: 19rem;
     top: 8rem;
 }
 
@@ -475,8 +464,8 @@ header .container {
     justify-content: center;
     text-decoration: none;
     border-radius: .55rem;
-    bottom: 10rem;
-    right: 25rem;
+    bottom: 9rem;
+    right: 22rem;
 }
 
 .like {
@@ -500,6 +489,9 @@ header .container {
     display: grid;
     place-items: center;
 
+}
+.like-pepele{
+    bottom: 11rem;
 }
 
 .like li {
@@ -536,15 +528,13 @@ header .container {
     }
 
     .line-2 {
-        /* top: ; */
+        
         right: 13rem;
 
 
     }
 
-    .left-side a {
-        /* right: 20rem; */
-    }
+
 
     .left-side a {
         right: 20rem;
@@ -578,7 +568,7 @@ header .container {
 
 
 .food-bax {
-    width: 1440px;
+    width: 100%;
     max-width: 1019px;
     margin-inline: auto;
     display: grid;
@@ -675,13 +665,13 @@ header .container {
     font-size: 14px;
     font-family: var(--robotoflex-font);
     border-radius: 1rem;
-    /* display: block; */
+
     display: grid;
     place-items: center;
     margin-top: .30rem;
     margin-left: 3rem;
 
-    /* margin-bottom: 2rem; */
+    
 }
 
 
@@ -775,11 +765,13 @@ header .container {
 
 @media (max-width:991.99px) {
     .food-bax {
-        width: 1440px;
-        max-width: 1019px;
+        /* width: 1440px; */
+        max-width: 960px;
         margin-inline: auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        row-gap: 2rem;
+        
 
 
         padding-bottom: 3rem
@@ -799,9 +791,7 @@ header .container {
 
 @media (max-width:768px) {
     .food-bax {
-        /* width: 1440px; */
-        /* max-width: 1019px; */
-        /* margin-inline: auto; */
+        
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 2rem;
@@ -826,7 +816,7 @@ header .container {
      max-width: 500px;
     }
     .menu-for h2{
-        /* max-width: 300ox; */
+        
         font-size: 1,70rem;
     }
     .menu-for{
@@ -963,7 +953,7 @@ header .container {
 
     .what-you-servic {
         width: 450px;
-        /* text-align: center; */
+        
 
     }
 
@@ -1010,7 +1000,7 @@ header .container {
         right: 12rem;
         top: 5rem;
         width: 100px;
-        /* top: -rem; */
+        
 
     }
     .input-search{
@@ -1220,4 +1210,61 @@ header .container {
         width: 250px;
     }
 
+}
+@media (max-width:340px) {
+    .right-side h1{
+        font-size:1rem ;
+    }
+    .right-side p{
+        font-size: .40rem;
+        
+        font-weight: 700;
+
+    }
+    .input-search{
+        width: 150px;
+    }
+    .input-search input{
+        font-size: .50rem;
+        height: 30px;
+    } 
+    .input-search .aman{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    
+    }
+    .input-search .icon{
+        width: 15px;
+        height: 15px;
+
+    }
+    .customer{
+        width: 180px;
+    }
+    .customer .cust-image img{
+        width: 25px;
+        height: 25px;
+
+    }
+    .image2{
+
+        left: 1rem;
+
+    }
+    .image3{
+        left: 2em;
+    }
+    .left-side .save-to{
+        right: 5.50rem;
+        
+        top: 7.50rem;
+    }
+    .line-2{
+        width: 40px;
+
+    }
+
+
+    
 }
